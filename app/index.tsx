@@ -14,7 +14,7 @@ const App: React.FC = () => {
   if (firebase.apps.length > 0) {
     console.log('Firebase App Initialized successfully:', firebase.apps[0].name);
   } else {
-    console.log('Firebase App is not initialized');
+    console.log('Firebase App is not initialized test git');
   }
   
   return (
